@@ -1,0 +1,1551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03D07E2BF08D9F1D2DD35F601B870D03 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F5E0CFC384D3F875984C7232231A66 /* MultipartFormData.swift */; };
+		06E74605750CCD28617BFDB5AB766528 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3B5C2A900E3F0E1DABA1D4E65E43D /* Response.swift */; };
+		08BF56F2B8324E2E804B2467EAAC356B /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899ECF21191C03E648F2FF5D27CB5AF /* TaskDelegate.swift */; };
+		099297A0628BAC20F1F9F7C7E2D1552B /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A20FB8F396BBEA3C3FC773C1EA3B98 /* Notifications.swift */; };
+		0FB0BA319BC2C2515F42A97A8B8A9550 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77640DDAFE615BB37FC5A8BC18E875D /* Foundation.framework */; };
+		1B3CF369E6351648E08BA4AD96F6DB0F /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF6C2B2E6EA39E5BE7B9E44087A98C8 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-dummy.m */; };
+		1FD137B9C8DB27E8B1758711A725BEB5 /* Alamofire-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 476FB117D211420FB5948CFBA9A62BEF /* Alamofire-watchOS-dummy.m */; };
+		26A890304C5793BF8F1F16F290C22CB1 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BBA44D2F62396DA3FE5890E33D5846 /* Timeline.swift */; };
+		29563E581C50753801C2BD34435DB608 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E42EB14C0F2D87AF84BD5093E5C97 /* DispatchQueue+Alamofire.swift */; };
+		2CE0939239CE7E003EABC740D3894CED /* Alamofire-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C58ABE73D7E5CEEAF0598EF0A363C3 /* Alamofire-iOS-dummy.m */; };
+		30E3A932E6C98BEF3CFBB612F0EF745C /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2621A9E1BFC8A44436E9282D50521F5 /* Validation.swift */; };
+		368CF708FEEFEEE79735F29CDCB01A5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4975B2083EBFB55CAF05CD02BA838CB /* Foundation.framework */; };
+		401EFD65BC761AAC5627FE3AE70C5EEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77640DDAFE615BB37FC5A8BC18E875D /* Foundation.framework */; };
+		41399A1E3D3BB00E5C3796A136800BB2 /* Alamofire-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 634FABE73F77A6614021BD304846BAB1 /* Alamofire-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AD9400617A3C3E3E9FB8FAE8FDEF6EE /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BBA44D2F62396DA3FE5890E33D5846 /* Timeline.swift */; };
+		4C3B3B9850335B07B463D90B4921755D /* Pods-Rocket.Chat.iOSWatchTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 068E40F774563452FBAF4A898B4DA8FA /* Pods-Rocket.Chat.iOSWatchTests-dummy.m */; };
+		4C8FF0FAFFBC0BB1AD72C30DBD06C17B /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A458AA5641124C85C881C128A0BB /* SessionManager.swift */; };
+		4F211C953D923D5FD30F7BEE88F92CE4 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BCB12BACEE2AE38ADAE62E0839EEA /* Alamofire.swift */; };
+		555B0E86991BE8FEFCB0292F10437A22 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947B4942679F4009223A4D89D5DD7D9 /* Result.swift */; };
+		5819C72B6A933289591AF5E380AA981E /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB42E210F09FD8335D20B9894A1CA7B /* ServerTrustPolicy.swift */; };
+		5991E162C47AFE360E7D5AE3A8EEBF89 /* TaskDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B899ECF21191C03E648F2FF5D27CB5AF /* TaskDelegate.swift */; };
+		5DF116EA39A8EB315EA65160D6BB9DF0 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A9C70760A1920A514B9185C550183D /* SessionDelegate.swift */; };
+		5FFD596BC66763415D21F1566DCD676C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77640DDAFE615BB37FC5A8BC18E875D /* Foundation.framework */; };
+		610017AA401B43AB241D006B9C3D708C /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA881D95944FF6C1D12617DE0FF5D17F /* AFError.swift */; };
+		62647D56E38A50D72A669096C5E84028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4975B2083EBFB55CAF05CD02BA838CB /* Foundation.framework */; };
+		655B22C3C0C3C3F5AF19018976BA52FF /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA881D95944FF6C1D12617DE0FF5D17F /* AFError.swift */; };
+		663D3FEC91D38CF59AE2707944CB22CB /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D751A458AA5641124C85C881C128A0BB /* SessionManager.swift */; };
+		6A37DB55DEC5540FEA003571E3BB9824 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F5E0CFC384D3F875984C7232231A66 /* MultipartFormData.swift */; };
+		703932EF779A74C0FAE64785346A0A3E /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1BCB12BACEE2AE38ADAE62E0839EEA /* Alamofire.swift */; };
+		75FA3F7150F70257A804896CA6C8E1D3 /* Pods-Rocket.Chat.iOSWatchUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E78081F97D92D32138D3EB6A5BBB333 /* Pods-Rocket.Chat.iOSWatchUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AE206184FF97304D228417320CC234F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E77640DDAFE615BB37FC5A8BC18E875D /* Foundation.framework */; };
+		7D7A15C112C8E4A0C187A475A79C935D /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A20FB8F396BBEA3C3FC773C1EA3B98 /* Notifications.swift */; };
+		7FA3873EFD6607719939B02B560BFCF6 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C49B30D83DB2362C4A3A8F9DC40C70A /* Request.swift */; };
+		82FC02CF8FD18493E04FC1C5B728788C /* Pods-Rocket.Chat.iOSWatch WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBB39CE6222CFB4A2DB2DCA643B85F68 /* Pods-Rocket.Chat.iOSWatch WatchKit App-dummy.m */; };
+		8FA936C50C1CD7B4EC196B167BA04B61 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = C947B4942679F4009223A4D89D5DD7D9 /* Result.swift */; };
+		8FD7D6616022C01888557B8A0506FC97 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18E30F9449273E97AF1392571D2AA50 /* NetworkReachabilityManager.swift */; };
+		9386DCB5BD63D6BB51C61A252D3CE619 /* Pods-Rocket.Chat.iOSWatchTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09FA6E55A9D5F3DDE3A8583F3C552703 /* Pods-Rocket.Chat.iOSWatchTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1BA28434ABC4D98872C9064A24AA18B /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2621A9E1BFC8A44436E9282D50521F5 /* Validation.swift */; };
+		A9F865046BCD50D82F21FC0CBDC46077 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DD309C9EA5CB8ED3346C752787713 /* ParameterEncoding.swift */; };
+		B068EE9DA7C493E5652BA4887207BA01 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A9C70760A1920A514B9185C550183D /* SessionDelegate.swift */; };
+		B9D4E4A35B95788AD61F64D550826424 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C49B30D83DB2362C4A3A8F9DC40C70A /* Request.swift */; };
+		BB38C6685F57E0A93DF9B96E3310BC7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4975B2083EBFB55CAF05CD02BA838CB /* Foundation.framework */; };
+		C08E9F09701B2FF36088560A0BA4233B /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A18E30F9449273E97AF1392571D2AA50 /* NetworkReachabilityManager.swift */; };
+		D6F10F27E3C306B7607251E4058DB05B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE3B5C2A900E3F0E1DABA1D4E65E43D /* Response.swift */; };
+		D7EE059C95EB8E3D5511D5EE2490807E /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 896D958FBE7F6EEBFCF439424FA074E8 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8EA67C49B11A92DD4AEF4DDA200B96C /* Pods-Rocket.Chat.iOSWatchUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE1CC2D73A6FBD3AAB18A28E65441AE0 /* Pods-Rocket.Chat.iOSWatchUITests-dummy.m */; };
+		E2CA5AD7B62C296DA7B132619BD86640 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9872A5B618EE419997B35479A9204B /* ResponseSerialization.swift */; };
+		E35EF038EB66E52EE842E0FDD41EC794 /* Alamofire-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1CDC493E8DE3F088EBC4E9D229B0B45 /* Alamofire-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3C511CF6C8470B56C3BD275C85D9120 /* Pods-Rocket.Chat.iOSWatch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE2E7CC1A0F3E5DB920D7740D7E60F70 /* Pods-Rocket.Chat.iOSWatch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E83194B1D952AA3C4D269B67327A5054 /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB42E210F09FD8335D20B9894A1CA7B /* ServerTrustPolicy.swift */; };
+		EB440AE367A6D5DDC8916BB327B46BA1 /* Pods-Rocket.Chat.iOSWatch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 049FADAECD9B46EACC0D9CFF8B113196 /* Pods-Rocket.Chat.iOSWatch-dummy.m */; };
+		F4206355260A2D03E04176A2A8105C52 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F59DD309C9EA5CB8ED3346C752787713 /* ParameterEncoding.swift */; };
+		F5570D32ECEFCC773BC41A8E99F65A5C /* Pods-Rocket.Chat.iOSWatch WatchKit App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B3FDB540035F92DE64536AA000D04B0 /* Pods-Rocket.Chat.iOSWatch WatchKit App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80FDB230BB5B3766EC81B67FBC02560 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B51E42EB14C0F2D87AF84BD5093E5C97 /* DispatchQueue+Alamofire.swift */; };
+		F9544C87AA1FDFE62C914EA6D88085A3 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9872A5B618EE419997B35479A9204B /* ResponseSerialization.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E3EA288283C80AA7C4155797E4FB5E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45820A19B9EB8ABC1C01C8318A1711F9;
+			remoteInfo = "Pods-Rocket.Chat.iOSWatch";
+		};
+		243495CAF8E97BDF1CAEF099D8ADE4EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173E4104E4F2CE5ECC896A154802C6D5;
+			remoteInfo = "Alamofire-watchOS";
+		};
+		3ADAA0D314EC85A273CD506954940F26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45820A19B9EB8ABC1C01C8318A1711F9;
+			remoteInfo = "Pods-Rocket.Chat.iOSWatch";
+		};
+		67E796815E63BEA29C2BD74756B78C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D8199C20C1BE5F5BCDBC8F8CB4BF089;
+			remoteInfo = "Alamofire-iOS";
+		};
+		EBFB9BC037ECB68597ACCE84E0B0BA33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173E4104E4F2CE5ECC896A154802C6D5;
+			remoteInfo = "Alamofire-watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049FADAECD9B46EACC0D9CFF8B113196 /* Pods-Rocket.Chat.iOSWatch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rocket.Chat.iOSWatch-dummy.m"; sourceTree = "<group>"; };
+		05C58ABE73D7E5CEEAF0598EF0A363C3 /* Alamofire-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-iOS-dummy.m"; sourceTree = "<group>"; };
+		068E40F774563452FBAF4A898B4DA8FA /* Pods-Rocket.Chat.iOSWatchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rocket.Chat.iOSWatchTests-dummy.m"; sourceTree = "<group>"; };
+		09943B767C055406D4AA54DB8AE8BFAD /* Pods-Rocket.Chat.iOSWatch WatchKit Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rocket.Chat.iOSWatch WatchKit Extension.modulemap"; sourceTree = "<group>"; };
+		09FA6E55A9D5F3DDE3A8583F3C552703 /* Pods-Rocket.Chat.iOSWatchTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rocket.Chat.iOSWatchTests-umbrella.h"; sourceTree = "<group>"; };
+		0BF45BD1E8D767DCF3E2F8D7F1D12C28 /* Pods-Rocket.Chat.iOSWatch WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rocket.Chat.iOSWatch WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DA9D85E7D5B440D39EE28050AA72A9B /* Pods_Rocket_Chat_iOSWatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rocket_Chat_iOSWatchTests.framework; path = "Pods-Rocket.Chat.iOSWatchTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		12BBA44D2F62396DA3FE5890E33D5846 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
+		1BB42E210F09FD8335D20B9894A1CA7B /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		1C8AC649C46FB20ECED6C9EE484270F6 /* Pods-Rocket.Chat.iOSWatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rocket.Chat.iOSWatchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		252407E2F6C459BBC2A26D3580849258 /* Alamofire-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Alamofire-iOS.modulemap"; sourceTree = "<group>"; };
+		26E92389A6D6D45C773E723FE4F619F8 /* Alamofire-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-iOS-prefix.pch"; sourceTree = "<group>"; };
+		2AF5AF340632A1D33E50A06FC79A5D37 /* Pods-Rocket.Chat.iOSWatch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rocket.Chat.iOSWatch.modulemap"; sourceTree = "<group>"; };
+		2DE3B5C2A900E3F0E1DABA1D4E65E43D /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		2E78081F97D92D32138D3EB6A5BBB333 /* Pods-Rocket.Chat.iOSWatchUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rocket.Chat.iOSWatchUITests-umbrella.h"; sourceTree = "<group>"; };
+		2E9872A5B618EE419997B35479A9204B /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		2F9040F07E3CE1298436191039132986 /* Alamofire-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "Alamofire-watchOS.modulemap"; path = "../Alamofire-watchOS/Alamofire-watchOS.modulemap"; sourceTree = "<group>"; };
+		3566C9FD93AA06D24785D9349FCA3995 /* Pods-Rocket.Chat.iOSWatchUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rocket.Chat.iOSWatchUITests-resources.sh"; sourceTree = "<group>"; };
+		361F75FABFE31AE08D80E850CE227099 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B97D18E2390FDA2B1F297146EBBE4F7 /* Pods-Rocket.Chat.iOSWatchTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rocket.Chat.iOSWatchTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3D1BCB12BACEE2AE38ADAE62E0839EEA /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		3E9C05CA28F4F24AA987ABDD3D80C6B2 /* Pods-Rocket.Chat.iOSWatchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rocket.Chat.iOSWatchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		40AE2D565B07A2695BC2DF0C6D065691 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rocket.Chat.iOSWatch WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		437667BADF67E8636A46EC010475D91E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Alamofire-watchOS/Info.plist"; sourceTree = "<group>"; };
+		43A9C70760A1920A514B9185C550183D /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		476FB117D211420FB5948CFBA9A62BEF /* Alamofire-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Alamofire-watchOS-dummy.m"; path = "../Alamofire-watchOS/Alamofire-watchOS-dummy.m"; sourceTree = "<group>"; };
+		49F9A25B554BE9EFF434FF62C4D11F0B /* Pods-Rocket.Chat.iOSWatchTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rocket.Chat.iOSWatchTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4AEE6318E1CA105E23828C194B8780DF /* Alamofire-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Alamofire-watchOS.xcconfig"; path = "../Alamofire-watchOS/Alamofire-watchOS.xcconfig"; sourceTree = "<group>"; };
+		544AA271A6491D472002BBEF9C6983F0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A8A02A0CA291007090B92A8C214AC4 /* Alamofire-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Alamofire-iOS.xcconfig"; sourceTree = "<group>"; };
+		5E4E4435A0C7AE73B842000CD1367791 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E98DEE2C4351D9D5A2D0FFA1EA51950 /* Pods-Rocket.Chat.iOSWatchTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rocket.Chat.iOSWatchTests.modulemap"; sourceTree = "<group>"; };
+		634FABE73F77A6614021BD304846BAB1 /* Alamofire-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-iOS-umbrella.h"; sourceTree = "<group>"; };
+		6397482C9D8B28418D1102BF26BF1D62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6721E9F6151777D36C43F62AF482F49F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D2C34DD5DD695F7003DE62C20A431F /* Pods-Rocket.Chat.iOSWatchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rocket.Chat.iOSWatchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6F51F8CFB02B0467F0C2F1E1694E4DD5 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rocket.Chat.iOSWatch WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		70C1F060AFA19EB2CD3B5B8A5187305E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71255DFF7A58DE8626451A110C48790B /* Pods-Rocket.Chat.iOSWatch WatchKit App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rocket.Chat.iOSWatch WatchKit App-resources.sh"; sourceTree = "<group>"; };
+		73307A5507F1992068FD1BEC724145CB /* Pods-Rocket.Chat.iOSWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rocket.Chat.iOSWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		73A5E82A6BA587C1ABF511E39A8CAD24 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = "Alamofire-watchOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7599C6F4BA49D65C849DCEBD5AB3C89E /* Pods-Rocket.Chat.iOSWatch WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rocket.Chat.iOSWatch WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		7B361AD4BF3F0AFC3D024D2AFA0B1066 /* Pods_Rocket_Chat_iOSWatchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rocket_Chat_iOSWatchUITests.framework; path = "Pods-Rocket.Chat.iOSWatchUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B3FDB540035F92DE64536AA000D04B0 /* Pods-Rocket.Chat.iOSWatch WatchKit App-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rocket.Chat.iOSWatch WatchKit App-umbrella.h"; sourceTree = "<group>"; };
+		7C49B30D83DB2362C4A3A8F9DC40C70A /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		7E313BC06925BBE9B486841A223C7C7F /* Pods_Rocket_Chat_iOSWatch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rocket_Chat_iOSWatch_WatchKit_Extension.framework; path = "Pods-Rocket.Chat.iOSWatch WatchKit Extension.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8235342A3F26D9D902A88384141E2815 /* Pods-Rocket.Chat.iOSWatchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rocket.Chat.iOSWatchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88F67515D0E8B809F306674315E75B17 /* Alamofire-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-watchOS-prefix.pch"; path = "../Alamofire-watchOS/Alamofire-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		896D958FBE7F6EEBFCF439424FA074E8 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rocket.Chat.iOSWatch WatchKit Extension-umbrella.h"; sourceTree = "<group>"; };
+		8D663EEFB8E7A84D0151A66593B0096C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = "Alamofire-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90F5E0CFC384D3F875984C7232231A66 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A125F84F82B945504311915E223CE9AB /* Pods-Rocket.Chat.iOSWatch WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rocket.Chat.iOSWatch WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		A18E30F9449273E97AF1392571D2AA50 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		A1CDC493E8DE3F088EBC4E9D229B0B45 /* Alamofire-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-watchOS-umbrella.h"; path = "../Alamofire-watchOS/Alamofire-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		A3AEB3ABE71E0D03A004B3A7CE6548CC /* Pods-Rocket.Chat.iOSWatch WatchKit App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rocket.Chat.iOSWatch WatchKit App-frameworks.sh"; sourceTree = "<group>"; };
+		A406BB6123E8BB6F858114EC9F527DA0 /* Pods-Rocket.Chat.iOSWatchTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rocket.Chat.iOSWatchTests-resources.sh"; sourceTree = "<group>"; };
+		A4BA5B7617F8C448BEE9C9DD0C204F90 /* Pods-Rocket.Chat.iOSWatch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rocket.Chat.iOSWatch-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4F56C312ED6B5BDA17278E573C72060 /* Pods-Rocket.Chat.iOSWatchUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rocket.Chat.iOSWatchUITests.modulemap"; sourceTree = "<group>"; };
+		ADE3794FF0FC800A125F4F48074104C0 /* Pods-Rocket.Chat.iOSWatch WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rocket.Chat.iOSWatch WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		B51E42EB14C0F2D87AF84BD5093E5C97 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		B899ECF21191C03E648F2FF5D27CB5AF /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
+		B9DC7DE8039D09ECD5201AEBFDF5FC22 /* Pods_Rocket_Chat_iOSWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rocket_Chat_iOSWatch.framework; path = "Pods-Rocket.Chat.iOSWatch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1F0292E15385A61D7E7DE0D2AA7F26C /* Pods-Rocket.Chat.iOSWatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rocket.Chat.iOSWatchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C31A78B5B81A0C7553D6FD0B4D445544 /* Pods-Rocket.Chat.iOSWatch WatchKit App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Rocket.Chat.iOSWatch WatchKit App.modulemap"; sourceTree = "<group>"; };
+		C4975B2083EBFB55CAF05CD02BA838CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS4.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C4F90BF896C69695CD910314D5424F7F /* Pods-Rocket.Chat.iOSWatch WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rocket.Chat.iOSWatch WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
+		C947B4942679F4009223A4D89D5DD7D9 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+		CE1CC2D73A6FBD3AAB18A28E65441AE0 /* Pods-Rocket.Chat.iOSWatchUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rocket.Chat.iOSWatchUITests-dummy.m"; sourceTree = "<group>"; };
+		CF96D22093D1CC3806FF672DA1F42693 /* Pods-Rocket.Chat.iOSWatch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Rocket.Chat.iOSWatch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2621A9E1BFC8A44436E9282D50521F5 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		D2A20FB8F396BBEA3C3FC773C1EA3B98 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		D638E4337973968C4145936054DD430D /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rocket.Chat.iOSWatch WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
+		D751A458AA5641124C85C881C128A0BB /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
+		DCB212B3A35BEBEF64EAC8C20E1BE1DE /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rocket.Chat.iOSWatch WatchKit Extension-resources.sh"; sourceTree = "<group>"; };
+		DDE514781AFF797811B9F7B564142134 /* Pods-Rocket.Chat.iOSWatchTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rocket.Chat.iOSWatchTests-frameworks.sh"; sourceTree = "<group>"; };
+		E041ECDDFB88D6F83465BA9A16745BCA /* Pods_Rocket_Chat_iOSWatch_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Rocket_Chat_iOSWatch_WatchKit_App.framework; path = "Pods-Rocket.Chat.iOSWatch WatchKit App.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13B2C19B9E2B844B57FCB17E489AEDD /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Rocket.Chat.iOSWatch WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		E45B1C933D746B176625A4751A74C304 /* Pods-Rocket.Chat.iOSWatch-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rocket.Chat.iOSWatch-resources.sh"; sourceTree = "<group>"; };
+		E77640DDAFE615BB37FC5A8BC18E875D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EA881D95944FF6C1D12617DE0FF5D17F /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
+		ED1EC75CFE15C79A9EAD112C1B25F6B7 /* Pods-Rocket.Chat.iOSWatch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rocket.Chat.iOSWatch-frameworks.sh"; sourceTree = "<group>"; };
+		F20FCC5BA066D2512BA1E6E440EBBAB4 /* Pods-Rocket.Chat.iOSWatchUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Rocket.Chat.iOSWatchUITests-frameworks.sh"; sourceTree = "<group>"; };
+		F59DD309C9EA5CB8ED3346C752787713 /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		FA7CF1AA4C6120858ED39EE7E37BAF3A /* Pods-Rocket.Chat.iOSWatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rocket.Chat.iOSWatchTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAF6C2B2E6EA39E5BE7B9E44087A98C8 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rocket.Chat.iOSWatch WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		FBB39CE6222CFB4A2DB2DCA643B85F68 /* Pods-Rocket.Chat.iOSWatch WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Rocket.Chat.iOSWatch WatchKit App-dummy.m"; sourceTree = "<group>"; };
+		FE2CDEE13AB33E313318E465392B864B /* Pods-Rocket.Chat.iOSWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Rocket.Chat.iOSWatch.release.xcconfig"; sourceTree = "<group>"; };
+		FE2E7CC1A0F3E5DB920D7740D7E60F70 /* Pods-Rocket.Chat.iOSWatch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Rocket.Chat.iOSWatch-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1449906E88F3B9A31DE87D21CCA0D15A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB38C6685F57E0A93DF9B96E3310BC7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A15D3EA01B116F4C5FB093EF78B0392 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FFD596BC66763415D21F1566DCD676C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4596A768F8686618F14524F032A3E49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AE206184FF97304D228417320CC234F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A515DEA7CD6CEBC195FD757FCBC6D790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FB0BA319BC2C2515F42A97A8B8A9550 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCA600FEEACC40641D2E4F712DDD08F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62647D56E38A50D72A669096C5E84028 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0149D810BB77641AC1709480BF24736 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368CF708FEEFEEE79735F29CDCB01A5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18AB82B3C48EA2E39EC5175456C26E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				401EFD65BC761AAC5627FE3AE70C5EEC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EDB28B8D8A0823FD3D01C74F341E4B5 /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				C4975B2083EBFB55CAF05CD02BA838CB /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CF1AD8F17F0E11A638AC47644B14DFB5 /* Alamofire */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6DD1685FF0DC848713086DE8E7CE6849 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				252407E2F6C459BBC2A26D3580849258 /* Alamofire-iOS.modulemap */,
+				54A8A02A0CA291007090B92A8C214AC4 /* Alamofire-iOS.xcconfig */,
+				05C58ABE73D7E5CEEAF0598EF0A363C3 /* Alamofire-iOS-dummy.m */,
+				26E92389A6D6D45C773E723FE4F619F8 /* Alamofire-iOS-prefix.pch */,
+				634FABE73F77A6614021BD304846BAB1 /* Alamofire-iOS-umbrella.h */,
+				2F9040F07E3CE1298436191039132986 /* Alamofire-watchOS.modulemap */,
+				4AEE6318E1CA105E23828C194B8780DF /* Alamofire-watchOS.xcconfig */,
+				476FB117D211420FB5948CFBA9A62BEF /* Alamofire-watchOS-dummy.m */,
+				88F67515D0E8B809F306674315E75B17 /* Alamofire-watchOS-prefix.pch */,
+				A1CDC493E8DE3F088EBC4E9D229B0B45 /* Alamofire-watchOS-umbrella.h */,
+				6721E9F6151777D36C43F62AF482F49F /* Info.plist */,
+				437667BADF67E8636A46EC010475D91E /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire-iOS";
+			sourceTree = "<group>";
+		};
+		782C1B27B24F8C0E8355A97E9F8FFD8C /* Pods-Rocket.Chat.iOSWatchTests */ = {
+			isa = PBXGroup;
+			children = (
+				544AA271A6491D472002BBEF9C6983F0 /* Info.plist */,
+				5E98DEE2C4351D9D5A2D0FFA1EA51950 /* Pods-Rocket.Chat.iOSWatchTests.modulemap */,
+				49F9A25B554BE9EFF434FF62C4D11F0B /* Pods-Rocket.Chat.iOSWatchTests-acknowledgements.markdown */,
+				3B97D18E2390FDA2B1F297146EBBE4F7 /* Pods-Rocket.Chat.iOSWatchTests-acknowledgements.plist */,
+				068E40F774563452FBAF4A898B4DA8FA /* Pods-Rocket.Chat.iOSWatchTests-dummy.m */,
+				DDE514781AFF797811B9F7B564142134 /* Pods-Rocket.Chat.iOSWatchTests-frameworks.sh */,
+				A406BB6123E8BB6F858114EC9F527DA0 /* Pods-Rocket.Chat.iOSWatchTests-resources.sh */,
+				09FA6E55A9D5F3DDE3A8583F3C552703 /* Pods-Rocket.Chat.iOSWatchTests-umbrella.h */,
+				1C8AC649C46FB20ECED6C9EE484270F6 /* Pods-Rocket.Chat.iOSWatchTests.debug.xcconfig */,
+				FA7CF1AA4C6120858ED39EE7E37BAF3A /* Pods-Rocket.Chat.iOSWatchTests.release.xcconfig */,
+			);
+			name = "Pods-Rocket.Chat.iOSWatchTests";
+			path = "Target Support Files/Pods-Rocket.Chat.iOSWatchTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				8F91EE078EA3977443D1BDC2601132EF /* Frameworks */,
+				35F128EB69B6F7FB7DA93BBF6C130FAE /* Pods */,
+				E19F924C1DC2CFED70581CF42D4F9712 /* Products */,
+				D0DA705678B2297CFEBBA2A51D42E700 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8F91EE078EA3977443D1BDC2601132EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F375DB63C3BCC11AF9808234753C618A /* iOS */,
+				1EDB28B8D8A0823FD3D01C74F341E4B5 /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2C907D92A72BCCE138275505E1CD382 /* Pods-Rocket.Chat.iOSWatchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				361F75FABFE31AE08D80E850CE227099 /* Info.plist */,
+				A4F56C312ED6B5BDA17278E573C72060 /* Pods-Rocket.Chat.iOSWatchUITests.modulemap */,
+				69D2C34DD5DD695F7003DE62C20A431F /* Pods-Rocket.Chat.iOSWatchUITests-acknowledgements.markdown */,
+				3E9C05CA28F4F24AA987ABDD3D80C6B2 /* Pods-Rocket.Chat.iOSWatchUITests-acknowledgements.plist */,
+				CE1CC2D73A6FBD3AAB18A28E65441AE0 /* Pods-Rocket.Chat.iOSWatchUITests-dummy.m */,
+				F20FCC5BA066D2512BA1E6E440EBBAB4 /* Pods-Rocket.Chat.iOSWatchUITests-frameworks.sh */,
+				3566C9FD93AA06D24785D9349FCA3995 /* Pods-Rocket.Chat.iOSWatchUITests-resources.sh */,
+				2E78081F97D92D32138D3EB6A5BBB333 /* Pods-Rocket.Chat.iOSWatchUITests-umbrella.h */,
+				8235342A3F26D9D902A88384141E2815 /* Pods-Rocket.Chat.iOSWatchUITests.debug.xcconfig */,
+				C1F0292E15385A61D7E7DE0D2AA7F26C /* Pods-Rocket.Chat.iOSWatchUITests.release.xcconfig */,
+			);
+			name = "Pods-Rocket.Chat.iOSWatchUITests";
+			path = "Target Support Files/Pods-Rocket.Chat.iOSWatchUITests";
+			sourceTree = "<group>";
+		};
+		CF1AD8F17F0E11A638AC47644B14DFB5 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				EA881D95944FF6C1D12617DE0FF5D17F /* AFError.swift */,
+				3D1BCB12BACEE2AE38ADAE62E0839EEA /* Alamofire.swift */,
+				B51E42EB14C0F2D87AF84BD5093E5C97 /* DispatchQueue+Alamofire.swift */,
+				90F5E0CFC384D3F875984C7232231A66 /* MultipartFormData.swift */,
+				A18E30F9449273E97AF1392571D2AA50 /* NetworkReachabilityManager.swift */,
+				D2A20FB8F396BBEA3C3FC773C1EA3B98 /* Notifications.swift */,
+				F59DD309C9EA5CB8ED3346C752787713 /* ParameterEncoding.swift */,
+				7C49B30D83DB2362C4A3A8F9DC40C70A /* Request.swift */,
+				2DE3B5C2A900E3F0E1DABA1D4E65E43D /* Response.swift */,
+				2E9872A5B618EE419997B35479A9204B /* ResponseSerialization.swift */,
+				C947B4942679F4009223A4D89D5DD7D9 /* Result.swift */,
+				1BB42E210F09FD8335D20B9894A1CA7B /* ServerTrustPolicy.swift */,
+				43A9C70760A1920A514B9185C550183D /* SessionDelegate.swift */,
+				D751A458AA5641124C85C881C128A0BB /* SessionManager.swift */,
+				B899ECF21191C03E648F2FF5D27CB5AF /* TaskDelegate.swift */,
+				12BBA44D2F62396DA3FE5890E33D5846 /* Timeline.swift */,
+				D2621A9E1BFC8A44436E9282D50521F5 /* Validation.swift */,
+				6DD1685FF0DC848713086DE8E7CE6849 /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		D0DA705678B2297CFEBBA2A51D42E700 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E657E4E1188F841FE0BAC6F79CF4CF80 /* Pods-Rocket.Chat.iOSWatch */,
+				E2EF5E234143116CD83F50B1285C843A /* Pods-Rocket.Chat.iOSWatch WatchKit App */,
+				E6B8A04A0688E519FB44ACBF70E41A8A /* Pods-Rocket.Chat.iOSWatch WatchKit Extension */,
+				782C1B27B24F8C0E8355A97E9F8FFD8C /* Pods-Rocket.Chat.iOSWatchTests */,
+				A2C907D92A72BCCE138275505E1CD382 /* Pods-Rocket.Chat.iOSWatchUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E19F924C1DC2CFED70581CF42D4F9712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D663EEFB8E7A84D0151A66593B0096C /* Alamofire.framework */,
+				73A5E82A6BA587C1ABF511E39A8CAD24 /* Alamofire.framework */,
+				B9DC7DE8039D09ECD5201AEBFDF5FC22 /* Pods_Rocket_Chat_iOSWatch.framework */,
+				E041ECDDFB88D6F83465BA9A16745BCA /* Pods_Rocket_Chat_iOSWatch_WatchKit_App.framework */,
+				7E313BC06925BBE9B486841A223C7C7F /* Pods_Rocket_Chat_iOSWatch_WatchKit_Extension.framework */,
+				0DA9D85E7D5B440D39EE28050AA72A9B /* Pods_Rocket_Chat_iOSWatchTests.framework */,
+				7B361AD4BF3F0AFC3D024D2AFA0B1066 /* Pods_Rocket_Chat_iOSWatchUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2EF5E234143116CD83F50B1285C843A /* Pods-Rocket.Chat.iOSWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				6397482C9D8B28418D1102BF26BF1D62 /* Info.plist */,
+				C31A78B5B81A0C7553D6FD0B4D445544 /* Pods-Rocket.Chat.iOSWatch WatchKit App.modulemap */,
+				0BF45BD1E8D767DCF3E2F8D7F1D12C28 /* Pods-Rocket.Chat.iOSWatch WatchKit App-acknowledgements.markdown */,
+				C4F90BF896C69695CD910314D5424F7F /* Pods-Rocket.Chat.iOSWatch WatchKit App-acknowledgements.plist */,
+				FBB39CE6222CFB4A2DB2DCA643B85F68 /* Pods-Rocket.Chat.iOSWatch WatchKit App-dummy.m */,
+				A3AEB3ABE71E0D03A004B3A7CE6548CC /* Pods-Rocket.Chat.iOSWatch WatchKit App-frameworks.sh */,
+				71255DFF7A58DE8626451A110C48790B /* Pods-Rocket.Chat.iOSWatch WatchKit App-resources.sh */,
+				7B3FDB540035F92DE64536AA000D04B0 /* Pods-Rocket.Chat.iOSWatch WatchKit App-umbrella.h */,
+				A125F84F82B945504311915E223CE9AB /* Pods-Rocket.Chat.iOSWatch WatchKit App.debug.xcconfig */,
+				ADE3794FF0FC800A125F4F48074104C0 /* Pods-Rocket.Chat.iOSWatch WatchKit App.release.xcconfig */,
+			);
+			name = "Pods-Rocket.Chat.iOSWatch WatchKit App";
+			path = "Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		E657E4E1188F841FE0BAC6F79CF4CF80 /* Pods-Rocket.Chat.iOSWatch */ = {
+			isa = PBXGroup;
+			children = (
+				70C1F060AFA19EB2CD3B5B8A5187305E /* Info.plist */,
+				2AF5AF340632A1D33E50A06FC79A5D37 /* Pods-Rocket.Chat.iOSWatch.modulemap */,
+				CF96D22093D1CC3806FF672DA1F42693 /* Pods-Rocket.Chat.iOSWatch-acknowledgements.markdown */,
+				A4BA5B7617F8C448BEE9C9DD0C204F90 /* Pods-Rocket.Chat.iOSWatch-acknowledgements.plist */,
+				049FADAECD9B46EACC0D9CFF8B113196 /* Pods-Rocket.Chat.iOSWatch-dummy.m */,
+				ED1EC75CFE15C79A9EAD112C1B25F6B7 /* Pods-Rocket.Chat.iOSWatch-frameworks.sh */,
+				E45B1C933D746B176625A4751A74C304 /* Pods-Rocket.Chat.iOSWatch-resources.sh */,
+				FE2E7CC1A0F3E5DB920D7740D7E60F70 /* Pods-Rocket.Chat.iOSWatch-umbrella.h */,
+				73307A5507F1992068FD1BEC724145CB /* Pods-Rocket.Chat.iOSWatch.debug.xcconfig */,
+				FE2CDEE13AB33E313318E465392B864B /* Pods-Rocket.Chat.iOSWatch.release.xcconfig */,
+			);
+			name = "Pods-Rocket.Chat.iOSWatch";
+			path = "Target Support Files/Pods-Rocket.Chat.iOSWatch";
+			sourceTree = "<group>";
+		};
+		E6B8A04A0688E519FB44ACBF70E41A8A /* Pods-Rocket.Chat.iOSWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				5E4E4435A0C7AE73B842000CD1367791 /* Info.plist */,
+				09943B767C055406D4AA54DB8AE8BFAD /* Pods-Rocket.Chat.iOSWatch WatchKit Extension.modulemap */,
+				40AE2D565B07A2695BC2DF0C6D065691 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-acknowledgements.markdown */,
+				E13B2C19B9E2B844B57FCB17E489AEDD /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-acknowledgements.plist */,
+				FAF6C2B2E6EA39E5BE7B9E44087A98C8 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-dummy.m */,
+				D638E4337973968C4145936054DD430D /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-frameworks.sh */,
+				DCB212B3A35BEBEF64EAC8C20E1BE1DE /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-resources.sh */,
+				896D958FBE7F6EEBFCF439424FA074E8 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-umbrella.h */,
+				7599C6F4BA49D65C849DCEBD5AB3C89E /* Pods-Rocket.Chat.iOSWatch WatchKit Extension.debug.xcconfig */,
+				6F51F8CFB02B0467F0C2F1E1694E4DD5 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-Rocket.Chat.iOSWatch WatchKit Extension";
+			path = "Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F375DB63C3BCC11AF9808234753C618A /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E77640DDAFE615BB37FC5A8BC18E875D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17E7CE437511A409730EC381E60FA457 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35EF038EB66E52EE842E0FDD41EC794 /* Alamofire-watchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BA67889A2F48D6A2A7190ACA52DE812 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3C511CF6C8470B56C3BD275C85D9120 /* Pods-Rocket.Chat.iOSWatch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2646799C231F6AC00B957428A5659707 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5570D32ECEFCC773BC41A8E99F65A5C /* Pods-Rocket.Chat.iOSWatch WatchKit App-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B777914DB6176D8EB96BF6947AECA57 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41399A1E3D3BB00E5C3796A136800BB2 /* Alamofire-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA878FC04AB38BE2E2906DCD0F3C81E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9386DCB5BD63D6BB51C61A252D3CE619 /* Pods-Rocket.Chat.iOSWatchTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5CE9398153B86BE5EA338890F06CAA4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75FA3F7150F70257A804896CA6C8E1D3 /* Pods-Rocket.Chat.iOSWatchUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C82903752FB55E7F1AAE563235517EEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7EE059C95EB8E3D5511D5EE2490807E /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		173E4104E4F2CE5ECC896A154802C6D5 /* Alamofire-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68ED8EF66573E653E64F42C9AA769C83 /* Build configuration list for PBXNativeTarget "Alamofire-watchOS" */;
+			buildPhases = (
+				3723730E81A14B8E4784B5E5F240BC68 /* Sources */,
+				1449906E88F3B9A31DE87D21CCA0D15A /* Frameworks */,
+				17E7CE437511A409730EC381E60FA457 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alamofire-watchOS";
+			productName = "Alamofire-watchOS";
+			productReference = 73A5E82A6BA587C1ABF511E39A8CAD24 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		243E821A7BE4B0800EEB49A27E005051 /* Pods-Rocket.Chat.iOSWatchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E318479859AE4EB1067C06D7711469 /* Build configuration list for PBXNativeTarget "Pods-Rocket.Chat.iOSWatchTests" */;
+			buildPhases = (
+				92F047371556C3C1E3A327355F4DDB91 /* Sources */,
+				A515DEA7CD6CEBC195FD757FCBC6D790 /* Frameworks */,
+				8CA878FC04AB38BE2E2906DCD0F3C81E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2A5E9E92232D8FB8CD0176965A7C3882 /* PBXTargetDependency */,
+			);
+			name = "Pods-Rocket.Chat.iOSWatchTests";
+			productName = "Pods-Rocket.Chat.iOSWatchTests";
+			productReference = 0DA9D85E7D5B440D39EE28050AA72A9B /* Pods_Rocket_Chat_iOSWatchTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		45820A19B9EB8ABC1C01C8318A1711F9 /* Pods-Rocket.Chat.iOSWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A3CD3559743EABE4BCEC46D56B47F5C /* Build configuration list for PBXNativeTarget "Pods-Rocket.Chat.iOSWatch" */;
+			buildPhases = (
+				39141B3A9C97EC33029DA77BDF915C7C /* Sources */,
+				3A15D3EA01B116F4C5FB093EF78B0392 /* Frameworks */,
+				1BA67889A2F48D6A2A7190ACA52DE812 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD9E7368657F958EC035560AB7598FAA /* PBXTargetDependency */,
+			);
+			name = "Pods-Rocket.Chat.iOSWatch";
+			productName = "Pods-Rocket.Chat.iOSWatch";
+			productReference = B9DC7DE8039D09ECD5201AEBFDF5FC22 /* Pods_Rocket_Chat_iOSWatch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4D8199C20C1BE5F5BCDBC8F8CB4BF089 /* Alamofire-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB92E599D179260C3F30F3C6F77933B7 /* Build configuration list for PBXNativeTarget "Alamofire-iOS" */;
+			buildPhases = (
+				1081308CCDA341D85FB28FDB2EB95ABE /* Sources */,
+				A4596A768F8686618F14524F032A3E49 /* Frameworks */,
+				4B777914DB6176D8EB96BF6947AECA57 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alamofire-iOS";
+			productName = "Alamofire-iOS";
+			productReference = 8D663EEFB8E7A84D0151A66593B0096C /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9235D28C6FD254F47AF4970A9155BC30 /* Pods-Rocket.Chat.iOSWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 322123C0A14DCBEA4EA613818864F15C /* Build configuration list for PBXNativeTarget "Pods-Rocket.Chat.iOSWatchUITests" */;
+			buildPhases = (
+				768D03CAB4876D20346F2429F7CAD5B8 /* Sources */,
+				C18AB82B3C48EA2E39EC5175456C26E8 /* Frameworks */,
+				A5CE9398153B86BE5EA338890F06CAA4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82E7EB30EE6E55623CCC2420FA59C400 /* PBXTargetDependency */,
+			);
+			name = "Pods-Rocket.Chat.iOSWatchUITests";
+			productName = "Pods-Rocket.Chat.iOSWatchUITests";
+			productReference = 7B361AD4BF3F0AFC3D024D2AFA0B1066 /* Pods_Rocket_Chat_iOSWatchUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C098EC1F38163085CCA1791766611CE /* Pods-Rocket.Chat.iOSWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F85BCF154C1D9B3198F87B0FA43924A /* Build configuration list for PBXNativeTarget "Pods-Rocket.Chat.iOSWatch WatchKit App" */;
+			buildPhases = (
+				32D2822145E26E38C514AC0F927EFA94 /* Sources */,
+				BFCA600FEEACC40641D2E4F712DDD08F /* Frameworks */,
+				2646799C231F6AC00B957428A5659707 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				974D4711A89DF47F5BBAF3CAB662E2DA /* PBXTargetDependency */,
+			);
+			name = "Pods-Rocket.Chat.iOSWatch WatchKit App";
+			productName = "Pods-Rocket.Chat.iOSWatch WatchKit App";
+			productReference = E041ECDDFB88D6F83465BA9A16745BCA /* Pods_Rocket_Chat_iOSWatch_WatchKit_App.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D745E605196396E73855ABE60FCD6B11 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1870691DA2CF2973A0645518F8FB2C0B /* Build configuration list for PBXNativeTarget "Pods-Rocket.Chat.iOSWatch WatchKit Extension" */;
+			buildPhases = (
+				7587F9385C088F9C803A72D2C9A1F5E3 /* Sources */,
+				C0149D810BB77641AC1709480BF24736 /* Frameworks */,
+				C82903752FB55E7F1AAE563235517EEA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0346605572C61C4147B1E6031AE47629 /* PBXTargetDependency */,
+			);
+			name = "Pods-Rocket.Chat.iOSWatch WatchKit Extension";
+			productName = "Pods-Rocket.Chat.iOSWatch WatchKit Extension";
+			productReference = 7E313BC06925BBE9B486841A223C7C7F /* Pods_Rocket_Chat_iOSWatch_WatchKit_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E19F924C1DC2CFED70581CF42D4F9712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D8199C20C1BE5F5BCDBC8F8CB4BF089 /* Alamofire-iOS */,
+				173E4104E4F2CE5ECC896A154802C6D5 /* Alamofire-watchOS */,
+				45820A19B9EB8ABC1C01C8318A1711F9 /* Pods-Rocket.Chat.iOSWatch */,
+				9C098EC1F38163085CCA1791766611CE /* Pods-Rocket.Chat.iOSWatch WatchKit App */,
+				D745E605196396E73855ABE60FCD6B11 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension */,
+				243E821A7BE4B0800EEB49A27E005051 /* Pods-Rocket.Chat.iOSWatchTests */,
+				9235D28C6FD254F47AF4970A9155BC30 /* Pods-Rocket.Chat.iOSWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1081308CCDA341D85FB28FDB2EB95ABE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				610017AA401B43AB241D006B9C3D708C /* AFError.swift in Sources */,
+				2CE0939239CE7E003EABC740D3894CED /* Alamofire-iOS-dummy.m in Sources */,
+				703932EF779A74C0FAE64785346A0A3E /* Alamofire.swift in Sources */,
+				29563E581C50753801C2BD34435DB608 /* DispatchQueue+Alamofire.swift in Sources */,
+				03D07E2BF08D9F1D2DD35F601B870D03 /* MultipartFormData.swift in Sources */,
+				C08E9F09701B2FF36088560A0BA4233B /* NetworkReachabilityManager.swift in Sources */,
+				099297A0628BAC20F1F9F7C7E2D1552B /* Notifications.swift in Sources */,
+				A9F865046BCD50D82F21FC0CBDC46077 /* ParameterEncoding.swift in Sources */,
+				B9D4E4A35B95788AD61F64D550826424 /* Request.swift in Sources */,
+				D6F10F27E3C306B7607251E4058DB05B /* Response.swift in Sources */,
+				F9544C87AA1FDFE62C914EA6D88085A3 /* ResponseSerialization.swift in Sources */,
+				8FA936C50C1CD7B4EC196B167BA04B61 /* Result.swift in Sources */,
+				5819C72B6A933289591AF5E380AA981E /* ServerTrustPolicy.swift in Sources */,
+				5DF116EA39A8EB315EA65160D6BB9DF0 /* SessionDelegate.swift in Sources */,
+				663D3FEC91D38CF59AE2707944CB22CB /* SessionManager.swift in Sources */,
+				08BF56F2B8324E2E804B2467EAAC356B /* TaskDelegate.swift in Sources */,
+				4AD9400617A3C3E3E9FB8FAE8FDEF6EE /* Timeline.swift in Sources */,
+				A1BA28434ABC4D98872C9064A24AA18B /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32D2822145E26E38C514AC0F927EFA94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82FC02CF8FD18493E04FC1C5B728788C /* Pods-Rocket.Chat.iOSWatch WatchKit App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3723730E81A14B8E4784B5E5F240BC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				655B22C3C0C3C3F5AF19018976BA52FF /* AFError.swift in Sources */,
+				1FD137B9C8DB27E8B1758711A725BEB5 /* Alamofire-watchOS-dummy.m in Sources */,
+				4F211C953D923D5FD30F7BEE88F92CE4 /* Alamofire.swift in Sources */,
+				F80FDB230BB5B3766EC81B67FBC02560 /* DispatchQueue+Alamofire.swift in Sources */,
+				6A37DB55DEC5540FEA003571E3BB9824 /* MultipartFormData.swift in Sources */,
+				8FD7D6616022C01888557B8A0506FC97 /* NetworkReachabilityManager.swift in Sources */,
+				7D7A15C112C8E4A0C187A475A79C935D /* Notifications.swift in Sources */,
+				F4206355260A2D03E04176A2A8105C52 /* ParameterEncoding.swift in Sources */,
+				7FA3873EFD6607719939B02B560BFCF6 /* Request.swift in Sources */,
+				06E74605750CCD28617BFDB5AB766528 /* Response.swift in Sources */,
+				E2CA5AD7B62C296DA7B132619BD86640 /* ResponseSerialization.swift in Sources */,
+				555B0E86991BE8FEFCB0292F10437A22 /* Result.swift in Sources */,
+				E83194B1D952AA3C4D269B67327A5054 /* ServerTrustPolicy.swift in Sources */,
+				B068EE9DA7C493E5652BA4887207BA01 /* SessionDelegate.swift in Sources */,
+				4C8FF0FAFFBC0BB1AD72C30DBD06C17B /* SessionManager.swift in Sources */,
+				5991E162C47AFE360E7D5AE3A8EEBF89 /* TaskDelegate.swift in Sources */,
+				26A890304C5793BF8F1F16F290C22CB1 /* Timeline.swift in Sources */,
+				30E3A932E6C98BEF3CFBB612F0EF745C /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39141B3A9C97EC33029DA77BDF915C7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB440AE367A6D5DDC8916BB327B46BA1 /* Pods-Rocket.Chat.iOSWatch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7587F9385C088F9C803A72D2C9A1F5E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B3CF369E6351648E08BA4AD96F6DB0F /* Pods-Rocket.Chat.iOSWatch WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768D03CAB4876D20346F2429F7CAD5B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8EA67C49B11A92DD4AEF4DDA200B96C /* Pods-Rocket.Chat.iOSWatchUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92F047371556C3C1E3A327355F4DDB91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C3B3B9850335B07B463D90B4921755D /* Pods-Rocket.Chat.iOSWatchTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0346605572C61C4147B1E6031AE47629 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire-watchOS";
+			target = 173E4104E4F2CE5ECC896A154802C6D5 /* Alamofire-watchOS */;
+			targetProxy = 243495CAF8E97BDF1CAEF099D8ADE4EC /* PBXContainerItemProxy */;
+		};
+		2A5E9E92232D8FB8CD0176965A7C3882 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Rocket.Chat.iOSWatch";
+			target = 45820A19B9EB8ABC1C01C8318A1711F9 /* Pods-Rocket.Chat.iOSWatch */;
+			targetProxy = 3ADAA0D314EC85A273CD506954940F26 /* PBXContainerItemProxy */;
+		};
+		82E7EB30EE6E55623CCC2420FA59C400 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Rocket.Chat.iOSWatch";
+			target = 45820A19B9EB8ABC1C01C8318A1711F9 /* Pods-Rocket.Chat.iOSWatch */;
+			targetProxy = 0E3EA288283C80AA7C4155797E4FB5E8 /* PBXContainerItemProxy */;
+		};
+		974D4711A89DF47F5BBAF3CAB662E2DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire-watchOS";
+			target = 173E4104E4F2CE5ECC896A154802C6D5 /* Alamofire-watchOS */;
+			targetProxy = EBFB9BC037ECB68597ACCE84E0B0BA33 /* PBXContainerItemProxy */;
+		};
+		DD9E7368657F958EC035560AB7598FAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Alamofire-iOS";
+			target = 4D8199C20C1BE5F5BCDBC8F8CB4BF089 /* Alamofire-iOS */;
+			targetProxy = 67E796815E63BEA29C2BD74756B78C6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19DB5807DBC6B75E361058641E4BEDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C8AC649C46FB20ECED6C9EE484270F6 /* Pods-Rocket.Chat.iOSWatchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatchTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatchTests/Pods-Rocket.Chat.iOSWatchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B2D36A2417B5404F38C016C660241D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A125F84F82B945504311915E223CE9AB /* Pods-Rocket.Chat.iOSWatch WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit App/Pods-Rocket.Chat.iOSWatch WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		33C7DF4C5B195A90AAFDE643259219AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A8A02A0CA291007090B92A8C214AC4 /* Alamofire-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-iOS/Alamofire-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire-iOS/Alamofire-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3AF81A3CFC09DE95C3B40E55B1B1EB64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1F0292E15385A61D7E7DE0D2AA7F26C /* Pods-Rocket.Chat.iOSWatchUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatchUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatchUITests/Pods-Rocket.Chat.iOSWatchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F41B96B5907C56E949F97A19B7D87F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE3794FF0FC800A125F4F48074104C0 /* Pods-Rocket.Chat.iOSWatch WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit App/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit App/Pods-Rocket.Chat.iOSWatch WatchKit App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		4514FF8A11813505E4C7AE12952AC180 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A8A02A0CA291007090B92A8C214AC4 /* Alamofire-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-iOS/Alamofire-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire-iOS/Alamofire-iOS.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		85150C2306F4542ED4D610173C1F327E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7599C6F4BA49D65C849DCEBD5AB3C89E /* Pods-Rocket.Chat.iOSWatch WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit Extension/Pods-Rocket.Chat.iOSWatch WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		85C911E371ED2432EE7D0FFE049C012A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7CF1AA4C6120858ED39EE7E37BAF3A /* Pods-Rocket.Chat.iOSWatchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatchTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatchTests/Pods-Rocket.Chat.iOSWatchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9110A39652BE5F41E8A8BBAD77FB9C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEE6318E1CA105E23828C194B8780DF /* Alamofire-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		95C2A833BD96440F10CDC8E0F6F26D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F51F8CFB02B0467F0C2F1E1694E4DD5 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit Extension/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit Extension/Pods-Rocket.Chat.iOSWatch WatchKit Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		A65514D6234DA00BA6D94DEE53E9EAAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73307A5507F1992068FD1BEC724145CB /* Pods-Rocket.Chat.iOSWatch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatch/Pods-Rocket.Chat.iOSWatch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB37CA01285F58CE9AF6CB14EC31E328 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Release;
+		};
+		AC9559F696A3A3CBA391EDF4E3EA39E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AEE6318E1CA105E23828C194B8780DF /* Alamofire-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire-watchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Alamofire-watchOS/Alamofire-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		B1B9C11F4146E7D693399D2307B63D6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8235342A3F26D9D902A88384141E2815 /* Pods-Rocket.Chat.iOSWatchUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatchUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatchUITests/Pods-Rocket.Chat.iOSWatchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DAF02AC595A465D976F5E50A563E4D5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 5.0;
+			};
+			name = Debug;
+		};
+		F1299716595A0B35AAFA49FCE4F790EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE2CDEE13AB33E313318E465392B864B /* Pods-Rocket.Chat.iOSWatch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Rocket.Chat.iOSWatch/Pods-Rocket.Chat.iOSWatch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1870691DA2CF2973A0645518F8FB2C0B /* Build configuration list for PBXNativeTarget "Pods-Rocket.Chat.iOSWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85150C2306F4542ED4D610173C1F327E /* Debug */,
+				95C2A833BD96440F10CDC8E0F6F26D6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A3CD3559743EABE4BCEC46D56B47F5C /* Build configuration list for PBXNativeTarget "Pods-Rocket.Chat.iOSWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65514D6234DA00BA6D94DEE53E9EAAA /* Debug */,
+				F1299716595A0B35AAFA49FCE4F790EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF02AC595A465D976F5E50A563E4D5E /* Debug */,
+				AB37CA01285F58CE9AF6CB14EC31E328 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		322123C0A14DCBEA4EA613818864F15C /* Build configuration list for PBXNativeTarget "Pods-Rocket.Chat.iOSWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1B9C11F4146E7D693399D2307B63D6D /* Debug */,
+				3AF81A3CFC09DE95C3B40E55B1B1EB64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45E318479859AE4EB1067C06D7711469 /* Build configuration list for PBXNativeTarget "Pods-Rocket.Chat.iOSWatchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19DB5807DBC6B75E361058641E4BEDD9 /* Debug */,
+				85C911E371ED2432EE7D0FFE049C012A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F85BCF154C1D9B3198F87B0FA43924A /* Build configuration list for PBXNativeTarget "Pods-Rocket.Chat.iOSWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B2D36A2417B5404F38C016C660241D8 /* Debug */,
+				3F41B96B5907C56E949F97A19B7D87F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68ED8EF66573E653E64F42C9AA769C83 /* Build configuration list for PBXNativeTarget "Alamofire-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC9559F696A3A3CBA391EDF4E3EA39E1 /* Debug */,
+				9110A39652BE5F41E8A8BBAD77FB9C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB92E599D179260C3F30F3C6F77933B7 /* Build configuration list for PBXNativeTarget "Alamofire-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4514FF8A11813505E4C7AE12952AC180 /* Debug */,
+				33C7DF4C5B195A90AAFDE643259219AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

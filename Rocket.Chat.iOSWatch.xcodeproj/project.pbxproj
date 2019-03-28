@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D460DDE0CCF1A78431582D5 /* Pods_Rocket_Chat_iOSWatch_WatchKit_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3718B70A774D9FE81FD02389 /* Pods_Rocket_Chat_iOSWatch_WatchKit_Extension.framework */; };
+		7B4BB8E91DBA8EADD3A07599 /* Pods_Rocket_Chat_iOSWatch_WatchKit_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E83003549AEF6E9CEC080E8E /* Pods_Rocket_Chat_iOSWatch_WatchKit_App.framework */; };
+		9F1837E897F8C1ABB178131C /* Pods_Rocket_Chat_iOSWatchUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC69F3F798433A9C8AD2671B /* Pods_Rocket_Chat_iOSWatchUITests.framework */; };
+		A651D3A1A1C79BC23BAB0343 /* Pods_Rocket_Chat_iOSWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1465612E5A642325C7926F22 /* Pods_Rocket_Chat_iOSWatch.framework */; };
+		B08600068E375E99E9B18154 /* Pods_Rocket_Chat_iOSWatchTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B262630FF8F4B66717379A7 /* Pods_Rocket_Chat_iOSWatchTests.framework */; };
+		E201862D2249803700A8A7CA /* API+User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201862C2249803700A8A7CA /* API+User.swift */; };
+		E201862F2249966900A8A7CA /* channelNameRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E201862E2249966900A8A7CA /* channelNameRowController.swift */; };
 		E21A093322482E16004328CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A093222482E16004328CB /* AppDelegate.swift */; };
 		E21A093522482E16004328CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21A093422482E16004328CB /* ViewController.swift */; };
 		E21A093822482E16004328CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E21A093622482E16004328CB /* Main.storyboard */; };
@@ -82,6 +89,19 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1465612E5A642325C7926F22 /* Pods_Rocket_Chat_iOSWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rocket_Chat_iOSWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		176654B9BDCC3E5A13F18BBB /* Pods-Rocket.Chat.iOSWatch WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.iOSWatch WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit App/Pods-Rocket.Chat.iOSWatch WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		3718B70A774D9FE81FD02389 /* Pods_Rocket_Chat_iOSWatch_WatchKit_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rocket_Chat_iOSWatch_WatchKit_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AE47BCD7FADFC5EF01CCB26 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.iOSWatch WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit Extension/Pods-Rocket.Chat.iOSWatch WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		6E568469621F50C1133FEBAE /* Pods-Rocket.Chat.iOSWatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.iOSWatchTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat.iOSWatchTests/Pods-Rocket.Chat.iOSWatchTests.release.xcconfig"; sourceTree = "<group>"; };
+		7895D4E6FC96257BC659455F /* Pods-Rocket.Chat.iOSWatchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.iOSWatchTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat.iOSWatchTests/Pods-Rocket.Chat.iOSWatchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B262630FF8F4B66717379A7 /* Pods_Rocket_Chat_iOSWatchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rocket_Chat_iOSWatchTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF652207567545259C90E54C /* Pods-Rocket.Chat.iOSWatchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.iOSWatchUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat.iOSWatchUITests/Pods-Rocket.Chat.iOSWatchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B291B11942E1592909D575A6 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.iOSWatch WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit Extension/Pods-Rocket.Chat.iOSWatch WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		C07FDBF5EB91C90E20FB84FA /* Pods-Rocket.Chat.iOSWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.iOSWatch.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat.iOSWatch/Pods-Rocket.Chat.iOSWatch.release.xcconfig"; sourceTree = "<group>"; };
+		DC69F3F798433A9C8AD2671B /* Pods_Rocket_Chat_iOSWatchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rocket_Chat_iOSWatchUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E201862C2249803700A8A7CA /* API+User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "API+User.swift"; sourceTree = "<group>"; };
+		E201862E2249966900A8A7CA /* channelNameRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = channelNameRowController.swift; sourceTree = "<group>"; };
 		E21A092F22482E16004328CB /* Rocket.Chat.iOSWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rocket.Chat.iOSWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E21A093222482E16004328CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E21A093422482E16004328CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,13 +127,26 @@
 		E21A097322482E1A004328CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E21A097522482E1A004328CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E21A097622482E1A004328CB /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		E83003549AEF6E9CEC080E8E /* Pods_Rocket_Chat_iOSWatch_WatchKit_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Rocket_Chat_iOSWatch_WatchKit_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB8EB6E8682F309119ED19DE /* Pods-Rocket.Chat.iOSWatch WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.iOSWatch WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit App/Pods-Rocket.Chat.iOSWatch WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		F67C8CF3CE83127B9D8D401C /* Pods-Rocket.Chat.iOSWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.iOSWatch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat.iOSWatch/Pods-Rocket.Chat.iOSWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		F7A4F884A5643764025BC952 /* Pods-Rocket.Chat.iOSWatchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Rocket.Chat.iOSWatchUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Rocket.Chat.iOSWatchUITests/Pods-Rocket.Chat.iOSWatchUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		99C781A20FBED061A2189B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B4BB8E91DBA8EADD3A07599 /* Pods_Rocket_Chat_iOSWatch_WatchKit_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E21A092C22482E16004328CB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A651D3A1A1C79BC23BAB0343 /* Pods_Rocket_Chat_iOSWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08600068E375E99E9B18154 /* Pods_Rocket_Chat_iOSWatchTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,6 +162,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F1837E897F8C1ABB178131C /* Pods_Rocket_Chat_iOSWatchUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,12 +170,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D460DDE0CCF1A78431582D5 /* Pods_Rocket_Chat_iOSWatch_WatchKit_Extension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF0CA37902BF9AF835F4ED9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1465612E5A642325C7926F22 /* Pods_Rocket_Chat_iOSWatch.framework */,
+				E83003549AEF6E9CEC080E8E /* Pods_Rocket_Chat_iOSWatch_WatchKit_App.framework */,
+				3718B70A774D9FE81FD02389 /* Pods_Rocket_Chat_iOSWatch_WatchKit_Extension.framework */,
+				7B262630FF8F4B66717379A7 /* Pods_Rocket_Chat_iOSWatchTests.framework */,
+				DC69F3F798433A9C8AD2671B /* Pods_Rocket_Chat_iOSWatchUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D06C4AD46FA276A1D0C7676D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F67C8CF3CE83127B9D8D401C /* Pods-Rocket.Chat.iOSWatch.debug.xcconfig */,
+				C07FDBF5EB91C90E20FB84FA /* Pods-Rocket.Chat.iOSWatch.release.xcconfig */,
+				176654B9BDCC3E5A13F18BBB /* Pods-Rocket.Chat.iOSWatch WatchKit App.debug.xcconfig */,
+				EB8EB6E8682F309119ED19DE /* Pods-Rocket.Chat.iOSWatch WatchKit App.release.xcconfig */,
+				B291B11942E1592909D575A6 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension.debug.xcconfig */,
+				5AE47BCD7FADFC5EF01CCB26 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension.release.xcconfig */,
+				7895D4E6FC96257BC659455F /* Pods-Rocket.Chat.iOSWatchTests.debug.xcconfig */,
+				6E568469621F50C1133FEBAE /* Pods-Rocket.Chat.iOSWatchTests.release.xcconfig */,
+				F7A4F884A5643764025BC952 /* Pods-Rocket.Chat.iOSWatchUITests.debug.xcconfig */,
+				AF652207567545259C90E54C /* Pods-Rocket.Chat.iOSWatchUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E21A092622482E16004328CB = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +215,8 @@
 				E21A095B22482E19004328CB /* Rocket.Chat.iOSWatch WatchKit App */,
 				E21A096A22482E19004328CB /* Rocket.Chat.iOSWatch WatchKit Extension */,
 				E21A093022482E16004328CB /* Products */,
+				D06C4AD46FA276A1D0C7676D /* Pods */,
+				BF0CA37902BF9AF835F4ED9B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -209,6 +276,7 @@
 		E21A096A22482E19004328CB /* Rocket.Chat.iOSWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				E201862C2249803700A8A7CA /* API+User.swift */,
 				E21A096B22482E19004328CB /* InterfaceController.swift */,
 				E21A096D22482E19004328CB /* ExtensionDelegate.swift */,
 				E21A096F22482E19004328CB /* NotificationController.swift */,
@@ -216,6 +284,7 @@
 				E21A097322482E1A004328CB /* Assets.xcassets */,
 				E21A097522482E1A004328CB /* Info.plist */,
 				E21A097622482E1A004328CB /* PushNotificationPayload.apns */,
+				E201862E2249966900A8A7CA /* channelNameRowController.swift */,
 			);
 			path = "Rocket.Chat.iOSWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -227,10 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E21A098122482E1A004328CB /* Build configuration list for PBXNativeTarget "Rocket.Chat.iOSWatch" */;
 			buildPhases = (
+				9EDA91F9E75EC7704C987857 /* [CP] Check Pods Manifest.lock */,
 				E21A092B22482E16004328CB /* Sources */,
 				E21A092C22482E16004328CB /* Frameworks */,
 				E21A092D22482E16004328CB /* Resources */,
 				E21A098022482E1A004328CB /* Embed Watch Content */,
+				9CD4561D841D018322BDC52F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -246,6 +317,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E21A098422482E1A004328CB /* Build configuration list for PBXNativeTarget "Rocket.Chat.iOSWatchTests" */;
 			buildPhases = (
+				ACF510CA4DB49E0824382FA0 /* [CP] Check Pods Manifest.lock */,
 				E21A093F22482E18004328CB /* Sources */,
 				E21A094022482E18004328CB /* Frameworks */,
 				E21A094122482E18004328CB /* Resources */,
@@ -264,6 +336,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E21A098722482E1A004328CB /* Build configuration list for PBXNativeTarget "Rocket.Chat.iOSWatchUITests" */;
 			buildPhases = (
+				0F37451383F38C79E3773ABE /* [CP] Check Pods Manifest.lock */,
 				E21A094A22482E18004328CB /* Sources */,
 				E21A094B22482E18004328CB /* Frameworks */,
 				E21A094C22482E18004328CB /* Resources */,
@@ -282,8 +355,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E21A097D22482E1A004328CB /* Build configuration list for PBXNativeTarget "Rocket.Chat.iOSWatch WatchKit App" */;
 			buildPhases = (
+				77D1DB1FED0999FC344D71D3 /* [CP] Check Pods Manifest.lock */,
 				E21A095522482E19004328CB /* Resources */,
 				E21A097C22482E1A004328CB /* Embed App Extensions */,
+				99C781A20FBED061A2189B95 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -299,9 +374,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E21A097922482E1A004328CB /* Build configuration list for PBXNativeTarget "Rocket.Chat.iOSWatch WatchKit Extension" */;
 			buildPhases = (
+				20C948C9EA79E39B8E380E0C /* [CP] Check Pods Manifest.lock */,
 				E21A096222482E19004328CB /* Sources */,
 				E21A096322482E19004328CB /* Frameworks */,
 				E21A096422482E19004328CB /* Resources */,
+				1CF918D8656831C3CC124098 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -407,6 +484,135 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F37451383F38C79E3773ABE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rocket.Chat.iOSWatchUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CF918D8656831C3CC124098 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit Extension/Pods-Rocket.Chat.iOSWatch WatchKit Extension-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-watchOS/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rocket.Chat.iOSWatch WatchKit Extension/Pods-Rocket.Chat.iOSWatch WatchKit Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20C948C9EA79E39B8E380E0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rocket.Chat.iOSWatch WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77D1DB1FED0999FC344D71D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rocket.Chat.iOSWatch WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CD4561D841D018322BDC52F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Rocket.Chat.iOSWatch/Pods-Rocket.Chat.iOSWatch-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Rocket.Chat.iOSWatch/Pods-Rocket.Chat.iOSWatch-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9EDA91F9E75EC7704C987857 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rocket.Chat.iOSWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACF510CA4DB49E0824382FA0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Rocket.Chat.iOSWatchTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E21A092B22482E16004328CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -437,6 +643,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E201862D2249803700A8A7CA /* API+User.swift in Sources */,
+				E201862F2249966900A8A7CA /* channelNameRowController.swift in Sources */,
 				E21A097022482E19004328CB /* NotificationController.swift in Sources */,
 				E21A097222482E19004328CB /* ComplicationController.swift in Sources */,
 				E21A096E22482E19004328CB /* ExtensionDelegate.swift in Sources */,
@@ -615,6 +823,7 @@
 		};
 		E21A097A22482E1A004328CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B291B11942E1592909D575A6 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -636,6 +845,7 @@
 		};
 		E21A097B22482E1A004328CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AE47BCD7FADFC5EF01CCB26 /* Pods-Rocket.Chat.iOSWatch WatchKit Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
@@ -657,6 +867,7 @@
 		};
 		E21A097E22482E1A004328CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 176654B9BDCC3E5A13F18BBB /* Pods-Rocket.Chat.iOSWatch WatchKit App.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -675,6 +886,7 @@
 		};
 		E21A097F22482E1A004328CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB8EB6E8682F309119ED19DE /* Pods-Rocket.Chat.iOSWatch WatchKit App.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -693,6 +905,7 @@
 		};
 		E21A098222482E1A004328CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F67C8CF3CE83127B9D8D401C /* Pods-Rocket.Chat.iOSWatch.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -710,6 +923,7 @@
 		};
 		E21A098322482E1A004328CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C07FDBF5EB91C90E20FB84FA /* Pods-Rocket.Chat.iOSWatch.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -727,6 +941,7 @@
 		};
 		E21A098522482E1A004328CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7895D4E6FC96257BC659455F /* Pods-Rocket.Chat.iOSWatchTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -747,6 +962,7 @@
 		};
 		E21A098622482E1A004328CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E568469621F50C1133FEBAE /* Pods-Rocket.Chat.iOSWatchTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -767,6 +983,7 @@
 		};
 		E21A098822482E1A004328CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A4F884A5643764025BC952 /* Pods-Rocket.Chat.iOSWatchUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -786,6 +1003,7 @@
 		};
 		E21A098922482E1A004328CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF652207567545259C90E54C /* Pods-Rocket.Chat.iOSWatchUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

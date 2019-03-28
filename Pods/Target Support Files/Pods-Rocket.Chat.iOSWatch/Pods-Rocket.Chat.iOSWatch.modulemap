@@ -1,0 +1,6 @@
+framework module Pods_Rocket_Chat_iOSWatch {
+  umbrella header "Pods-Rocket.Chat.iOSWatch-umbrella.h"
+
+  export *
+  module * { export * }
+}
