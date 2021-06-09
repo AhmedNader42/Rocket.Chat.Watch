@@ -1,7 +1,7 @@
 # Rocket.Chat.Watch
 
 Demo: 
-![DEMO](https://imgur.com/1tlVD9W)
+![DEMO](demo/demo_login.gif)
 
 NOTE: 
 - Also you can find the detailed GSOC proposal right here. Which I've spent a lot of time working on.
