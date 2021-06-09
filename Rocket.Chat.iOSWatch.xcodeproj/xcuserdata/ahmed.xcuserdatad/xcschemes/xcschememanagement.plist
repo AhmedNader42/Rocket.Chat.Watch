@@ -9,7 +9,17 @@
 			<key>orderHint</key>
 			<integer>10</integer>
 		</dict>
+		<key>Rocket.Chat.iOSWatch WatchKit App (Complication).xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
 		<key>Rocket.Chat.iOSWatch WatchKit App (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Rocket.Chat.iOSWatch WatchKit App (Notification).xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>9</integer>
@@ -19,10 +29,20 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>Rocket.Chat.iOSWatch WatchKit App.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
 		<key>Rocket.Chat.iOSWatch.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>7</integer>
+		</dict>
+		<key>Rocket.Chat.iOSWatch.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
 		</dict>
 	</dict>
 </dict>

@@ -77,6 +77,21 @@ class MyController: WKInterfaceController {
                         "X-Auth-Token" : authToken,
                         "X-User-Id"    : userID
         ]
+        
+        if let url = URL(string: url) {
+            var request = URLRequest(url: url)
+            // Set headers
+            request.setValue("headerValue", forHTTPHeaderField: "headerField")
+            request.setValue("anotherHeaderValue", forHTTPHeaderField: "anotherHeaderField")
+            let completionHandler = {(data: Data?, response: URLResponse?, error: Error?) -> Void in
+                // Do something
+            }
+            URLSession.shared.dataTask(with: request, completionHandler: completionHandler).resume()
+        } else {
+            // Something went wrong
+        }
+        
+        
         Alamofire
             .request(url!, method: HTTPMethod.get, parameters: nil, encoding: JSONEncoding.default, headers: headers)
             .responseJSON { response in
